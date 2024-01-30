@@ -1,0 +1,36 @@
+:root {
+    --Amber: #FFC100;
+    --UT-orange: #FF8200;
+}
+
+body {
+    background-color: var(--Amber);
+}
+
+#titleWebSite {
+    color: var(--Amber, #FFC100);
+    font-family: Arial;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 70%;
+    text-transform: uppercase;
+}
+
+/**Main banner mobile style*/
+
+#header{
+    display: block;
+    width: 100%;
+    height: 177px;
+    background-image: url('/images/mainbanner.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+#mainBanner{
+    width: 360px;
+height: 177px;
+flex-shrink: 0;
+}
